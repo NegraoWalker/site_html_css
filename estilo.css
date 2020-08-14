@@ -1,0 +1,78 @@
+/*SELETORES:*/
+
+body{ /* Seletor para formatação da tag body.*/
+	background color:#d2d2c1; /*Definição da cor de fundo, caso a imagem não seja carregada.*/
+	background-image: url('arquivos_necess/fundo.png');   /*Definição de uma imagem de fundo disponibilizada pelo professor.*/     
+	font size: 16px; /*Definindo um tamanho de texto padrão.*/
+	font-family: Arial, Helvetica, sans-serif; /*Definição de um estilo de fonte.*/
+}
+
+a{ /*Seletor criado para realizar a formatação do menu de links.*/
+	color: #4b566a; /*Definindo a cor do texto do menu de links.*/
+	text-decoration: none; /*Retirando o underline do menu de links.*/
+	font-weight: bold; /*Colocando em negrito o texto do menu de links.*/
+/*Criando bordas em cada palavra do texto do menu de links, para mostrar o espaçamento entre cada uma.*/
+/*	border-width: 1px; 
+	border-style: solid;
+	border-color: red;
+*/
+	padding: 5px; /*Definindo um espaçamento interno para cada palavra do texto do menu de links.*/
+}
+
+
+
+/*ID'S:*/
+
+#topo{ /*id criada pra estruturar o topo do site. Utilizando bordas estruturamos e definimos o tamanho que 
+	queremos dos contéudos do site*/
+
+/*	border-width: 1px;   Definindo a espessura da borda.
+	border-style: solid; Definindo o estilo da borda.
+	border-color: red; Definindo a cor da borda.  */
+
+	width: 900px; /*Definindo o comprimento da div no body. Com o objetivo de comparação de como vai ficar a imagem de
+	                  do topo do site*/
+}
+
+#menu{ /*id criada para criação do espaço do menu de links do nosso site.*/
+	background-color: #c5c5b2; /*Definindo a cor de fundo do menu de links.*/
+
+/*	border-width: 1px;
+	border-style: solid;
+	border-color: red;
+*/
+	padding: 18px; /*Novo atributo que define o espaçamento interno da div.*/
+}
+
+#conteudo{ /*id criada para formatar o texto Sobre Anna Bella.*/
+	background-color: #e8e8d9; /*Definindo a cor de fundo do texto.*/
+	padding: 10px; /*Definindo o espaçamento interno do texto.*/
+
+}
+
+/*CLASSES:*/
+
+.rodape{ /*Classe para formatar o texto Todos os direitos reservados.*/
+	text-align: center; /*Novo atributo usado para alinhar texto. Nesse caso foi usado para centralizar o texto
+	                    Todos os direitos reservados. Esse atributo também tem como opção: left (alinhamento a esquerda)
+	                     e right (alinhamento a direita).*/
+}
+
+.t1{ /*Classe criada para formatar o título Sobre Anna Bella.*/
+	color: #828271; /*Definindo a cor do texto.*/
+	font-size: 1.2em; /*Definindo um tamanho do texto a partir do tamanho usado no seletor body.
+					  Assim o body é o pai e .t1 é o filho por estar dentro.*/
+
+}
+
+.img_campanha{ /*Classe criada para formatar as imagens da página campanhas publicitárias. Vamos formatar usando bordas.*/
+	border-width: 10px; 
+	border-style: solid;
+	border-color: #c3c3ae;
+}
+
+.info_contato{ /*Classe criada para formatar as informações de contato da página contato.*/
+	font-weight: bold; 
+	padding: 30px;
+	text-align: center;
+}
